@@ -9,4 +9,20 @@ you need phue installed , to do this
 pip install phue --user
 ```
 
-all the scripts have --help which explains their parameters
+to colorloop all your hues 
+```shell
+./colour_loop -b ip.ad.dr.es 
+./colour_loop -b ip.ad.dr.es -m off
+```
+
+to flash all your hues
+```shell
+./alert -b ip.ad.dr.es -m lselect
+./alert -b ip.ad.dr.es -m select
+./alert -b ip.ad.dr.es -m none
+```
+
+to run a lights sequence
+```shell
+./hue_light_patterns -c patterns/meditate.lights 
+```
