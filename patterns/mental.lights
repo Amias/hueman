@@ -1,0 +1,34 @@
+<lights>
+    <bridge>192.168.1.22</bridge>
+    <name>Mental</name>
+    <description>as crazy as hue gets, which is not very </description>
+    <transition>1</transition>
+    <sleep>0.5</sleep>
+    <loopsleep>1</loopsleep>
+    <active_lights>
+        <light>Dresser</light>
+        <light>Table</light>
+        <light>Ceiling</light>
+        <light>Screen</light>
+        <light>Kitchen</light>
+        <light>Corner</light>
+    </active_lights>
+    <hue>
+        <min>0</min>,
+        <max>65536</max>
+        <step>256</step>
+        <skew>16</skew>
+    </hue>
+    <sat>
+        <min>253</min>,
+        <max>253</max>
+        <step>1</step>
+        <skew>1</skew>
+    </sat>
+    <bri>
+        <min>253</min>,
+        <max>253</max>
+        <step>1</step>
+        <skew>1</skew>
+    </bri>
+</lights>

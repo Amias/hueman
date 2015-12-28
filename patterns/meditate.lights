@@ -1,0 +1,34 @@
+<lights>
+    <bridge>192.168.1.22</bridge>
+    <name>Meditate</name>
+    <description>Pulses between red/yellow/brown with long transitions</description>
+    <transition>60</transition>
+    <sleep>1</sleep>
+    <loopsleep>0</loopsleep>
+    <active_lights>
+        <light>Dresser</light>
+        <light>Table</light>
+        <light>Ceiling</light>
+        <light>Screen</light>
+        <light>Kitchen</light>
+        <light>Corner</light>
+    </active_lights>
+    <hue>
+        <min>5000</min>,
+        <max>10000</max>
+        <step>1500</step>
+        <skew>1.05</skew>
+    </hue>
+    <sat>
+        <min>200</min>,
+        <max>254</max>
+        <step>15</step>
+        <skew>2.53</skew>
+    </sat>
+    <bri>
+        <min>200</min>,
+        <max>254</max>
+        <step>2</step>
+        <skew>3.56</skew>
+    </bri>
+</lights>
