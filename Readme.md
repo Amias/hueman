@@ -8,6 +8,8 @@ you need phue installed , to do this
 ```shell
 pip install phue --user
 ```
+Before you run one of these scripts for the first time you need to press the
+buttom on the bridge to allow it to connect, if you don't the script will fail.
 
 to colorloop all your hues 
 ```shell
